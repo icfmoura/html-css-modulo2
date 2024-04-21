@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(201, 227, 176);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(35, 67, 3);
+}
+
+h1#principal {
+    background-color: rgb(19, 135, 19);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    width:550px;
+    padding: 3px;
+    margin: auto;
+    
+}
+
+h2 {
+    color: rgb(84, 141, 28);
+}
+
+.basico {
+    background-color: rgb(34, 237, 74);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    width:170px;
+    padding: 3px;
+    margin: left;
+    border-radius: 5px;
+}
+
+.intermediario {
+    background-color: rgb(241, 249, 17);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.516);
+    width:240px;
+    padding: 3px;
+    margin: left;
+    border-radius: 5px;
+}
+
+.avancado {
+    background-color: rgb(249, 17, 17);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.768);
+    width:210px;
+    padding: 3px;
+    margin: left;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        a {
+            color: rgb(224, 0, 0);
+            text-decoration: none;
+            font-weight: light;
+        }
+        
+        a:visited {
+            color: rgb(38, 171, 20);
+        }
+
+        a:hover {
+            color: rgb(11, 11, 95);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        a::after {
+            content: "[visto]";
+            color: grey;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/icfmoura" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://www.facebook.com/icfmoura" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</body>
+</html>
